@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site teste</title>
+    <style>
+        div.primeiralista > h2{
+            background-color: lightblue;
+            border: 3px solid black;
+            width: 250px;
+            cursor: pointer;
+        }
+        div.primeiralista > ol{
+            display: none;
+        }
+        h2::before{
+            content: "->";
+        }
+        
+        div.primeiralista:hover > ol{
+            display: block;
+            background-color: lightgray;
+            width: 250px;
+            cursor: pointer;
+            
+                font-size: 20px;
+            }
+        
+
+        
+    </style>
+</head>
+<body>
+    <h1>Bem vindo ao meu site de teste!</h1>
+    <hr>
+    <p>Este é um site simples criado para fins de teste.</p>
+    <br>
+    <p>Lorem ipsum, <strong>dolor</strong> sit amet <em>consectetur adipisicing elit.</em>ariatur libero deserunt et, nulla delectus eveniet quasi non culpa officiis voluptatem modi minus provident similique perspiciatis laborum quis adipisci repudiandae temporibus!</p>
+    <br>
+        <div class="primeiralista">
+            <h2>Primeira lista</h2>
+      
+        <ol type="I">
+            <li>primeiro item</li>
+            <ul type="disc">
+                <li>Su bitem do primeiro item</li>
+                <li>Sub item do primeiro item</li>
+            </ul>
+            <li>segundo item</li>
+            <ul type="disc">
+                <li><a href="#" target="_blank" rel="external"><abbr title="encaminha para a mesma página">Sub item do segundo item</abbr></a></li>
+                <li>sub item do segundo item</li>
+            </ul> 
+         </div>
+        </ol>
+     <div>
+         <h2>Segunda lista</h2>
+     </div>
+</body>
+</html>

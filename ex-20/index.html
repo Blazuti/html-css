@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-class</title>
+    <link rel="stylesheet" href="style.css">
+        
+    <style>
+        div > p{
+            display: none;/*essa declaração faz com que nao aparça o elemento p dentro da div*/
+        }
+        /*div:hover faz com que aconteça algo quando passado o mouse sobre a div
+        > p indica o que acontecera somente com o elento p quando o mouse passar pela div */
+        div:hover > p{
+            display: block;
+            color: white;
+            background-color: red;
+            width: 300px;
+        }
+        div:hover{
+            color: red;
+        }
+        h1{
+            font: bold 40px times new roman;
+        }
+        p{
+            font: italic 20px arial;
+        }
+    </style>
+       </head>
+<body>
+    <h1>Exemplo de Pseudo-class </h1>
+    <p>Passe o mouse sobre o texto</p>
+    <div>
+        Passe o mouse aqui
+        <p style="font-weight: bold;">TEXTO ESCONDIDO...</p>
+    </div>
+    
+</body>
+</html>
