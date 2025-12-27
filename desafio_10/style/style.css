@@ -176,12 +176,8 @@ footer > p{
     margin: 0px;
     text-align: center;
 }
-img{
+picture > source{
     display: block;
+    width: 90%;
     height: auto;
-    margin: auto;
-}
-main > img.pequena{
-    
-    max-width: 50px;
 }
