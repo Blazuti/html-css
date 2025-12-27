@@ -176,8 +176,8 @@ footer > p{
     margin: 0px;
     text-align: center;
 }
-picture > source{
+picture{
     display: block;
-    width: 90%;
+    max-width: 90;
     height: auto;
 }
