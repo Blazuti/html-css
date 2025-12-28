@@ -13,13 +13,6 @@
     padding: 0px;
     margin: 0px;
 }
-main > article > p{
-    text-align: justify;
-    padding: 20px 0px;
-    text-indent: 1em;
-    font-size: 18px;
-    
-}
 body{
     background-color: var(--cor1);
     
@@ -54,18 +47,20 @@ header > nav{
     margin: 0px;
     text-decoration: none;
     text-align: left;
-    max-width: 800px;
-    margin: auto;
+    max-width: 100%;
+    
 }
 header > nav > a{
     color: rgb(254, 254, 254);
     font-size: 18px;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.349);
-    margin-right: 20px;
+    margin-right: 5px;
     text-decoration: none;
     
     
+    
 }
+
 header > nav > a:hover{
     background-color: rgba(2, 42, 38, 0.327);
     padding: 10px 2px 10px 2px;
@@ -83,6 +78,14 @@ main{
     padding: 20px;
     
 }
+main > article > p{
+    text-align: justify;
+    padding: 20px 0px;
+    text-indent: 1em;
+    font-size: 18px;
+    
+}
+
 article > h1{
     font-family: android;
     font-size: 36px;
