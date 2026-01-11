@@ -12,12 +12,13 @@
 </head>
 <body>
     <h1>Meu primeiro formulário</h1>
-    <form action="cadastro.php" autocomplete="off">
+    <form action="cadastro.php" autocomplete="on">
         <p>
-            <label for="inome">nome:</label> <input type="text" name="nome" id="inome">
+            <label for="inome">nome:</label> <input type="text" name="nome" id="inome" required minlength="7"
+            maxlength="30" placeholder="Digite seu nome completo" autocomplete="name">
         </p>
         <p>
-            <label for="isobrenome">sobrenome:</label><input type="text" name="sobrenome" id="isobrenome">
+            <label for="isen">senha:</label> <input type="password" name="sen" id="isen" required minlength="8" placeholder="Dgite sua senha">
         </p>
         <p>
             <input type="submit" value="Enviar">
