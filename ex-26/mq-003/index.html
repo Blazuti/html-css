@@ -3,10 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/style.css" media="all">
-    <link rel="stylesheet" href="estilos/portrait.css" media="screen and (orientation: portrait)">
-    <link rel="stylesheet" href="estilos/landscape.css" media="screen and (orientation: landscape)">
     <title>Media Queries</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            
+        }
+
+        html, body{
+            background-color: #233eff;
+            width: 100vw;
+            height: 100vh;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #202020;
+            text-align: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        h1{
+            padding: 20px;
+            text-shadow: 3px 2px 3px rgba(0,0,0,0.3);
+        }
+
+
+        @media (orientation: portrait){
+            body{
+            background-image: url(../imagens/cev-portrait.jpg);
+            background-position: center bottom;
+            }
+        }
+
+        @media screen and (orientation: landscape){
+            body{
+            background-image: url(../imagens/cev-landscape.jpg);
+            background-position: left bottom;
+            }
+        }
+        
+    </style>
 </head>
 <body>
     
