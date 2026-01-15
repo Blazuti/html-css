@@ -17,3 +17,8 @@ main{
     img#print{display: block;}
     img#tv{display: none;}
 
+main::after{
+    content: "Página impressa em blazuti.github.io";
+    text-decoration: underline;
+    
+}
