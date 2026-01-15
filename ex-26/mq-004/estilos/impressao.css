@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/* Estilos para impressão */
+
+body{
+    background-image: url(../imagens/back-print.jpg);
+}
+main{
+    color: #000;
+    text-shadow: none;
+    border: 1px solid #000;
+    font-family: 'Courier New', Courier, monospace;
+}
+    img#cel{display: none;}
+    img#tab{display: none;}
+    img#pc{display: none;}
+    img#print{display: block;}
+    img#tv{display: none;}
+

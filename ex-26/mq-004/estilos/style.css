@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
+
 /* Formatação geral */
+
 *{
     margin: 0;
     padding: 0;
@@ -40,8 +42,8 @@ img{
     margin: auto;
 }
 
-#cel{display: block;}
-#tab{display: none;}
-#pc{display: none;}
-#print{display: none;}
-#tv{display: none;}
+img#cel{display: block;}
+img#tab{display: none;}
+img#pc{display: none;}
+img#print{display: none;}
+img#tv{display: none;}
