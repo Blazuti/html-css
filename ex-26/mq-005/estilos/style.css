@@ -6,6 +6,7 @@
     --cor1: #eeeeee;
     --cor2: darkgrey;
 }
+
 *{
     margin: 0px;
     padding: 0px;
@@ -23,6 +24,7 @@ html{
 }
 
 header{
+    position: fixed;
     background-color: var(--cor2);
     color: white;
     padding: 10px 0;
