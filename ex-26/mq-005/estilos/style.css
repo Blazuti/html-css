@@ -13,7 +13,7 @@
     box-sizing: border-box;
 }
 
-html{
+body{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
     background-color: var(--cor1);
@@ -65,13 +65,13 @@ h2{
 
 main{
     width: 356px;
-    height: 100vh;
+    height: auto;
     margin: auto;
     background-color: rgba(255, 255, 255, 0.495);
     border-radius: 10px;
     box-shadow: 0px 0px 10px 1px var(--cor2);
 }
-article p{
+article > p{
     margin: 15px;
     text-align: justify;
     text-indent: 10px;
