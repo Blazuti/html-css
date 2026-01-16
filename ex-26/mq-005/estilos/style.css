@@ -82,7 +82,8 @@ nav#cel ul{
 
 footer, a{
     background-color: var(--cor2);
-    color: var(--cor1);
+    font-size: 0.8em;
+    color: black;
     text-align: center;
     margin-top: 20px;
     text-decoration: none;
