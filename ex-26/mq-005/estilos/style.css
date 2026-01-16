@@ -36,16 +36,19 @@ div.linha{
     height: 4px;
     background-color: var(--cor3);
 }
-
+nav#cel{
+    width: 100vw;
+    margin-top: 10px;
+}
 button{
     display: flex;
     justify-content: center;
     flex-direction: column;
     cursor: pointer;
-    width: 100vw;
+    width: 356px;
     border-radius: 5px;
     border: 0px;
-    margin: 0px 5px 0px 5px;
+    margin: auto
 }
 h1, h2{
     text-align: center;
