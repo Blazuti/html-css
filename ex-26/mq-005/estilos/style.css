@@ -24,7 +24,6 @@ html{
 }
 
 header{
-    position: fixed;
     background-color: var(--cor2);
     color: white;
     padding: 10px 0;
