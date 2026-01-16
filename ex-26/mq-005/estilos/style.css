@@ -28,7 +28,7 @@ header{
     top: 0;
     background-color: var(--cor2);
     color: white;
-    padding: 10px 0;
+    padding: 10px 0px 5px 0px;
     
 }
 
@@ -42,19 +42,23 @@ div.linha{
 }
 nav#cel{
     width: 100vw;
-    margin-top: 10px;
-}
-button{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    background-color: var(--cor1);
+    box-shadow: 0px 0px 10px 1px var(--cor2);
+    display: block;
     cursor: pointer;
     width: 356px;
     border-radius: 5px;
     border: 0px;
-    margin: auto
+    margin: auto;
+    padding: 2px 0;
 }
-h1, h2{
+h1{
+    font-size: 2.5em;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.363);
+}
+h2{
+    font-size: 1.5em;
     text-align: center;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.363);
 }
@@ -75,18 +79,55 @@ article p{
 
 nav#telas{
     display: none;
+    list-style-type: none;
 }
 
 nav#cel ul{
+    
+    position: fixed;
+    position: absolute;
+    transform: translate(0%, 2%);
+    width: 356px;
     display: none;
+    list-style-type: none;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px 1px var(--cor2);
+    box-sizing: border-box;
+    background-color: var(--cor1);
+    border-radius: 5px;
+    
+}
+a{
+    text-decoration: none;
+    color: var(--cor3);
+    padding: 10px 0;
+    margin: 0px;
+    border-radius: 5px;
 }
 
-footer, a{
-    background-color: var(--cor2);
-    font-size: 0.8em;
-    color: black;
-    text-align: center;
-    margin-top: 20px;
-    text-decoration: none;
+a:hover{
+    box-shadow: 2px 2px 6px #00000083;
+    translate: 6px 6px;
+    transition: 250ms;
+    background: var(--cor2);
+    color: white;
     text-shadow: 2px 2px 4px #00000061;
+    
 }
+nav#cel:hover{
+   ul, a{
+        
+        display: block;
+    }
+}
+
+footer{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 0.9em;
+    color: var(--cor3);
+}
+
+
