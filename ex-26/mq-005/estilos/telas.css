@@ -3,7 +3,7 @@
 @media screen and (min-width: 456px) {
 
     main{
-        width: 500px;
+        width: 70vw;
     }
     nav#cel{
         display: none;
