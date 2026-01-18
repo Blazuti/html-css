@@ -1,1 +1,24 @@
 @charset "utf-8";
+
+@media screen and (min-width: 456px) {
+
+    main{
+        width: 500px;
+    }
+    nav#cel{
+        display: none;
+    }
+    nav#telas{
+        display: block;
+        ul, li{
+            display: flex;
+            align-items: flex-start;
+            margin: 0px 10px;
+        }
+        a{
+            padding: 5px 20px;
+           
+        }
+    }
+
+}
