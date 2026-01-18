@@ -1,6 +1,4 @@
-@metacharset "utf-8";
-
-
+@charset "utf-8";
 :root {
     --cor3: #333;
     --cor1: #eeeeee;
@@ -30,7 +28,7 @@ body{
 header{
     position: sticky;
     top: 0;
-    background-color: var(--cor2);
+    background-image: linear-gradient(to top, var(--cor2), var(--cor3));
     color: white;
     padding: 10px 0px 5px 0px;
     
@@ -114,7 +112,7 @@ a:hover{
     box-shadow: 2px 2px 6px #00000083;
     translate: 6px 6px;
     transition: 250ms;
-    background: var(--cor2);
+    background: var(--cor3);
     color: white;
     text-shadow: 2px 2px 4px #00000061;
     
