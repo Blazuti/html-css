@@ -10,29 +10,38 @@
         }
         div.container{
             background-color: lightcoral;
+            width: 100vw;
+            height: 500px;
 
             display: flex;
-            flex-flow: column nowrap;
-            justify-content: center;
-            align-items: center;
+            flex-flow: row wrap;
+            justify-content: space-evenly; /*Alinhamento ou espaçamento do eixo principal*/
+            align-content: space-evenly; /*Alinhamento ou espaçamento do eixo vertical*/
+            
+            
+            
+            gap: 10px;
         }
         .item{
             background-color: aquamarine;
             border: 1px solid black;
             text-align: center;
-            padding: 10px;  
+            padding: 10px;
+            width: 100px;
+            
+            
         }
     </style>
 </head>
 <body>
     <h1>Eixos flex-direction</h1>
     <div class="container">
-        <div class="item">Exemplo de bloco A</div>
-        <div class="item">Exemplo de bloco B</div>
-        <div class="item">Exemplo de bloco C</div>
-        <div class="item">Exemplo de bloco D</div>
-        <div class="item">Exemplo de bloco E</div>
-        <div class="item">Exemplo de bloco F</div>
+        <div class="item">Bloco A</div>
+        <div class="item">Bloco B</div>
+        <div class="item">Bloco C</div>
+        <div class="item">Bloco D</div>
+        <div class="item">Bloco E</div>
+        
     </div>
     
 </body>
