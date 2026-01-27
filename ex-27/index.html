@@ -14,33 +14,63 @@
             height: 500px;
 
             display: flex;
-            flex-flow: row wrap;
+            flex-flow: row nowrap;
             justify-content: space-evenly; /*Alinhamento ou espaçamento do eixo principal*/
-            align-content: space-evenly; /*Alinhamento ou espaçamento do eixo vertical*/
             
             
             
-            gap: 10px;
+            
+            
         }
         .item{
             background-color: aquamarine;
             border: 1px solid black;
             text-align: center;
             padding: 10px;
-            width: 100px;
+            
+
+            flex-grow: 0; /*Possibilita fazer com que elemento filho se ajuste ao tamanho
+            do container além do seu tamnho definido*/
+            flex-shrink: 1;/*oposto do grow essa propriedade faz com que o elemnto
+            também se ajuste ao tamnho do container
+            mas com o tamnaho inferio ao
+            definido*/
+            
+        }
+
+        #A{
             
             
         }
+
+        #B{
+            
+        }
+
+        #C{
+            
+        }
+
+        #D{
+            
+            
+        }
+
+        #E{
+
+        }
+
+    
     </style>
 </head>
 <body>
     <h1>Eixos flex-direction</h1>
     <div class="container">
-        <div class="item">Bloco A</div>
-        <div class="item">Bloco B</div>
-        <div class="item">Bloco C</div>
-        <div class="item">Bloco D</div>
-        <div class="item">Bloco E</div>
+        <div class="item" id="A">Bloco A</div>
+        <div class="item" id="B">Bloco B</div>
+        <div class="item" id="C">Bloco C</div>
+        <div class="item" id="D">Bloco D</div>
+        <div class="item" id="E">Bloco E</div>
         
     </div>
     
