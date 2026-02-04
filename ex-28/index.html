@@ -6,19 +6,34 @@
     <title>Grid layout</title>
 
     <style>
-        main.container{
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        main.container {
+            
             border: 3px solid blue;
+            height: 350px;
+            width: 100vw;
             display: grid;
-            grid-template-columns: auto auto auto;
-            grid-template-rows: 50px 50px 50px;
+            grid-template-rows: repeat(3, 1fr);
+            grid-template-columns: repeat(3, 1fr);
             gap: 10px;
+            place-items: ;
+            place-content: ;
+           
         }
 
-        div.item{
+        .item:nth-child(7){
+            background-color: aquamarine;
+            grid-area: 2 / 2 / 3 / 3; /*row start / column strat / row end / column end*/
             border: 2px dashed red;
-            text-align: center;
-            align-content: center;
+            
+            
+            
         }
+
     </style>
 </head>
 <body>
